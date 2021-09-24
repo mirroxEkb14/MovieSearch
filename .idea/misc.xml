@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/drawable/corner_backgroud.xml" value="0.2703125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/layout-small-port/activity_main.xml" value="0.9794238683127572" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/layout/activity_main.xml" value="0.176" />
       </map>
     </option>

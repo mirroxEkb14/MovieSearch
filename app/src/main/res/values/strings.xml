@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Movie Search</string>
+    <string name="disclaimer">Posters are from https://www.movieposters.com</string>
+    <string name="btn_menu">MENU</string>
+    <string name="btn_favorites">Favorites</string>
+    <string name="btn_see_later">See later</string>
+    <string name="btn_selections">Selections</string>
+    <string name="btn_settings">Settings</string>
 </resources>
