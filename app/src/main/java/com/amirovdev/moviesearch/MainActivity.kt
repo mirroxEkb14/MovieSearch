@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -15,6 +16,10 @@ class MainActivity : AppCompatActivity() {
 
         topToolbar.setOnMenuItemClickListener { onTopToolbarClicked(it) }
         bottomNavigation.setOnNavigationItemSelectedListener { onBottomNavigationClicked(it) }
+
+        btnDarkMode.setOnClickListener {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        }
     }
 
     private fun onTopToolbarClicked(menuItem: MenuItem): Boolean {
