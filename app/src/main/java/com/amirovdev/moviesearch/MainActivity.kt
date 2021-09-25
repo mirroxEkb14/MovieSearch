@@ -2,49 +2,50 @@ package com.amirovdev.moviesearch
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Button
 import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    // buttons from 'main_activity'
-    private lateinit var btnMenu: Button
-    private lateinit var btnFavorites: Button
-    private lateinit var btnSeeLater: Button
-    private lateinit var btnSelections: Button
-    private lateinit var btnSettings: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        initView()
+        topToolbar.setOnMenuItemClickListener { onTopToolbarClicked(it) }
+        bottomNavigation.setOnNavigationItemSelectedListener { onBottomNavigationClicked(it) }
+    }
 
-        btnMenu.setOnClickListener {
-            Toast.makeText(this, "Menu!", Toast.LENGTH_SHORT).show()
-        }
-
-        btnFavorites.setOnClickListener {
-            Toast.makeText(this, "Favorites!", Toast.LENGTH_SHORT).show()
-        }
-
-        btnSeeLater.setOnClickListener {
-            Toast.makeText(this, "See Later!", Toast.LENGTH_SHORT).show()
-        }
-        btnSelections.setOnClickListener {
-            Toast.makeText(this, "Selections!", Toast.LENGTH_SHORT).show()
-        }
-
-        btnSettings.setOnClickListener {
-            Toast.makeText(this, "Settings!", Toast.LENGTH_SHORT).show()
+    private fun onTopToolbarClicked(menuItem: MenuItem): Boolean {
+        return when (menuItem.itemId) {
+            R.id.settings -> {
+                Toast.makeText(this, "Settings", Toast.LENGTH_SHORT).show()
+                true
+            }
+            else -> false
         }
     }
 
-    private fun initView() {
-        btnMenu = findViewById(R.id.btn_menu)
-        btnFavorites = findViewById(R.id.btn_favorites)
-        btnSeeLater = findViewById(R.id.btn_see_later)
-        btnSelections = findViewById(R.id.btn_selections)
-        btnSettings = findViewById(R.id.btn_settings)
+    private fun onBottomNavigationClicked(menuItem: MenuItem): Boolean {
+        return when (menuItem.itemId) {
+            R.id.home -> {
+                Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.selections -> {
+                Toast.makeText(this, "Selections", Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.watch_later -> {
+                Toast.makeText(this, "Watch Later", Toast.LENGTH_SHORT).show()
+                true
+            }
+            R.id.favorites -> {
+                Toast.makeText(this, "Favorites", Toast.LENGTH_SHORT).show()
+                true
+            }
+            else -> false
+        }
     }
 }
