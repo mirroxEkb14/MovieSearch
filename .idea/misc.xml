@@ -7,10 +7,18 @@
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/drawable/corner_background.xml" value="0.2703125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/drawable/ic_round_menu.xml" value="0.2703125" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/layout-small-port/activity_main.xml" value="0.9794238683127572" />
-        <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/layout/activity_main.xml" value="0.536" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/menu/navigation_bar_menu.xml" value="0.176" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/menu/out_menu.xml" value="0.176" />
         <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/menu/tool_bar_menu.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/MovieSearch/app/src/main/res/menu/toolbar_menu.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/drawable/ic_baseline_settings.xml" value="0.2703125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/layout/activity_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/layout/film_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/menu/navigation_bar_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Projects/MovieSearch/app/src/main/res/menu/toolbar_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
