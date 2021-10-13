@@ -6,4 +6,6 @@
     <string name="selections_title">Selections</string>
     <string name="watch_later_title">Watch Later</string>
     <string name="favorites_title">Favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
