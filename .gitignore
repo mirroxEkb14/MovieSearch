@@ -1,7 +1,5 @@
 *.iml
 .gradle
-/.idea
-test.txt
 /local.properties
 /.idea/caches
 /.idea/libraries
